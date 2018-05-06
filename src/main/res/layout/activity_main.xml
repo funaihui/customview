@@ -8,8 +8,17 @@
     tools:context=".MainActivity">
 
     <com.wizardev.customview.view.SlideButton
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_marginTop="30dp"
+        android:id="@+id/slideButton"
+        app:snakeRadius="30dp"
+        app:ringLineSize="1dp"
+        app:innerText="滑动延时还车"
+        app:innerTextSize="15dp"
+        app:snakeBarTopText="按住"
+        app:snakeBarTextSize="15sp"
+        app:snakeBarBottomText="滑动"
+        app:snakeBarTextColor="@android:color/white"
         android:layout_height="wrap_content"
       />
 

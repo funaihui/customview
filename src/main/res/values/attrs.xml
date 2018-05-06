@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlideButton" >
+        <attr name="snakeRadius" format="dimension|integer"/>
+        <attr name="snakeColor" format="color|integer"/>
+        <attr name="ringLineSize" format="dimension|integer" />
+        <attr name="ringLineColor" format="color|integer" />
+        <attr name="innerText" format="string|integer" />
+        <attr name="innerTextSize" format="dimension|integer" />
+        <attr name="innerTextColor" format="color|integer" />
+
+        <attr name="snakeBarTopText" format="string|integer" />
+        <attr name="snakeBarBottomText" format="string|integer" />
+        <attr name="snakeBarTextSize" format="dimension|integer" />
+        <attr name="snakeBarTextColor" format="color|integer" />
+
+    </declare-styleable>
+
+</resources>
